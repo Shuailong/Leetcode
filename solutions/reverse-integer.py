@@ -56,7 +56,7 @@ class Solution1(object):
         	x /= 10
         if neg:
         	res = -res
-        if res > MAX or res < -MAX:
+        if res > MAX or res < -MAX-1:
         	return 0
         
         return res

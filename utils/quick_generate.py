@@ -20,7 +20,7 @@ def main():
     	print 'Usage: python quick_generate.py [problem_name]'
     	sys.exit(1)
     problem_name = sys.argv[1]
-    print problem_name
+    print problem_name+'.py successfully created.'
 
     date = time.strftime("%Y-%m-%d")
 
