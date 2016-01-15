@@ -6,7 +6,7 @@ word-pattern.py
  
 Created by Shuailong on 2016-01-05.
 
-https://leetcode.com/problems/prolem/word-pattern/.
+https://leetcode.com/problems/word-pattern/.
 
 """
 

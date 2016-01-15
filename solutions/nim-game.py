@@ -6,7 +6,7 @@ nim-game.py
  
 Created by Shuailong on 2015-12-21.
 
-https://leetcode.com/problems/prolem/nim-game/.
+https://leetcode.com/problems/nim-game/.
 
 """
 

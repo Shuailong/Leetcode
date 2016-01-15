@@ -6,7 +6,7 @@
  
 Created by Shuailong on [date].
 
-https://leetcode.com/problems/problem/[problem_name]/.
+https://leetcode.com/problems/[problem_name]/.
 
 """
 

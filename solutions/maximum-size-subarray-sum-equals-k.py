@@ -6,7 +6,7 @@ maximum-size-subarray-sum-equals-k.py
  
 Created by Shuailong on 2016-01-06.
 
-https://leetcode.com/problems/prolem/maximum-size-subarray-sum-equals-k/.
+https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/.
 
 """
 

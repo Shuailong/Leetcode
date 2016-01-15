@@ -6,7 +6,7 @@ power-of-three.py
  
 Created by Shuailong on 2016-01-10.
 
-https://leetcode.com/problems/prolem/power-of-three/.
+https://leetcode.com/problems/power-of-three/.
 
 """
 

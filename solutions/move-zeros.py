@@ -6,7 +6,7 @@ move-zeros.py
  
 Created by Shuailong on 2015-12-21.
 
-https://leetcode.com/problems/prolem/move-zeros/.
+https://leetcode.com/problems/move-zeros/.
 
 """
 

@@ -2,11 +2,11 @@
 # encoding: utf-8
 
 """
-[problem_name].py
+zigzag-conversion.py
  
-Created by Shuailong on [date].
+Created by Shuailong on 2016-01-15.
 
-https://leetcode.com/problems/problem/[problem_name]/.
+https://leetcode.com/problems/zigzag-conversion/.
 
 """
 

@@ -6,7 +6,7 @@ bulb-switcher.py
  
 Created by Shuailong on 2015-12-19.
 
-https://leetcode.com/problems/prolem/bulb-switcher.
+https://leetcode.com/problems/bulb-switcher.
 
 """
 

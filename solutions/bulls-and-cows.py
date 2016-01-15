@@ -6,7 +6,7 @@ bulls-and-cows.py
  
 Created by Shuailong on 2015-12-20.
 
-https://leetcode.com/problems/prolem/bulls-and-cows/.
+https://leetcode.com/problems/bulls-and-cows/.
 
 """
         

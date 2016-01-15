@@ -6,7 +6,7 @@ flip-game-ii.py
  
 Created by Shuailong on 2016-01-05.
 
-https://leetcode.com/problems/prolem/flip-game-ii/.
+https://leetcode.com/problems/flip-game-ii/.
 
 """
 
