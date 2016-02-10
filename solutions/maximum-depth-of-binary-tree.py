@@ -23,12 +23,16 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
+        if root == None:
+            return 0
+        return max(self.maxDepth(root.left), self.maxDepth(root.right))+1
 
         
 
 def main():
     solution = Solution()
     root = TreeNode(1)
+
     print solution.maxDepth(root)
     
 if __name__ == '__main__':
