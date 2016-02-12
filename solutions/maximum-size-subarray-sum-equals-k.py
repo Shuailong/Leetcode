@@ -19,10 +19,21 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+        n = len(nums)
+        sums = [0]*(n+1)
 
-        
+        for i in range(1, n+1):
+            sums[i] = sums[i-1] + nums[i-1]
+
+        res = 0
+        for i in range(n):
+            for j in range(n-1,i-1+res,-1):
+                if sums[j] - sums[i] == k and j - i > res:
+                    res = j - i
+        return res
 
 
+    
 class Solution2(object):
     '''TLE'''
     def maxSubArrayLen(self, nums, k):
