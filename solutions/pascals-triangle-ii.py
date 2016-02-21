@@ -32,7 +32,7 @@ class Solution(object):
 
 def main():
     solution = Solution()
-    print solution.getRow(0)
+    print solution.getRow(5)
     
 if __name__ == '__main__':
     main()
