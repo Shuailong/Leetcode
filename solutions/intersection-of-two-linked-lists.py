@@ -22,12 +22,13 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-class Solution(object):
+class Solution1(object):
     def getIntersectionNode(self, headA, headB):
         """
         :type head1, head1: ListNode
         :rtype: ListNode
         """
+        '''space: O(n)'''
         a_nodes = set()
         p_a = headA
         while p_a is not None:
@@ -39,6 +40,38 @@ class Solution(object):
                 return p_b
             p_b = p_b.next
         return p_b
+
+class Solution(object):
+    def getIntersectionNode(self, headA, headB):
+        """
+        :type head1, head1: ListNode
+        :rtype: ListNode
+        """
+        len1 = 0
+        len2 = 0
+        p1 = headA
+        p2 = headB
+        while p1 is not None:
+            p1 = p1.next
+            len1 += 1
+        while p2 is not None:
+            p2 = p2.next
+            len2 += 1
+        p1 = headA
+        p2 = headB
+        if len1 > len2:
+            for i in range(len1-len2):
+                p1 = p1.next
+        if len1 < len2:
+            for i in range(len2-len1):
+                p2 = p2.next
+        while p1 is not None and p2 is not None:
+            if p1 == p2:
+                return p1
+            p1 = p1.next
+            p2 = p2.next
+        return None
+
         
         
 def main():
