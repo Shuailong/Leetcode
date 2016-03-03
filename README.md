@@ -1,2 +1,2 @@
 # Leetcode
-Leetcode, the way to topcoder
+A problem a day keeps you not a dull boy.
