@@ -9,6 +9,8 @@ Created by Shuailong on 2016-03-22.
 https://leetcode.com/problems/counting-bits/.
 
 """
+
+from math import log
 class Solution(object):
     def countBits(self, num):
         """
@@ -32,13 +34,7 @@ class Solution2(object):
         """
         res = [0]*(num+1)
         for i in range(1, num+1):
-            ii = i
-            trailing_zeros = 0
-            while ii != 0:
-                if ii & 1 == 1:
-                    break
-                trailing_zeros += 1
-                ii >>= 1
+            trailing_zeros = int(log(i & -i, 2))
             res[i] = res[i-1] - (trailing_zeros-1) 
         return res
 
