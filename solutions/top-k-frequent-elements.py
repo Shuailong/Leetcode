@@ -21,7 +21,7 @@ class Solution(object):
         :rtype: List[int]
         """
         c = Counter(nums)
-        return heapq.nlargest(k, c, key=lambda x:c[x])
+        return heapq.nlargest(k, c, c.get)
 
 def main():
     solution = Solution()
