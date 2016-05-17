@@ -1,2 +1,2 @@
 # Leetcode
-A problem a day keeps you not a dull boy.
+A problem a day keeps you from a dull boy.
