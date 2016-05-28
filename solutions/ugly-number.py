@@ -35,7 +35,7 @@ class Solution(object):
                 return False
         return True
 
-        
+
 def main():
     solution = Solution()
     num = 1
@@ -44,7 +44,6 @@ def main():
     print solution.isUgly(num)
     num = 147
     print solution.isUgly(num)
-    
+
 if __name__ == '__main__':
     main()
-
